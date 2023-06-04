@@ -1,5 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
 import Notiflix from 'notiflix';
 
 const apiKey = '37017406-53d78b8b42616f89f9425447d';
@@ -93,6 +93,7 @@ function searchImages() {
           captionsData: 'alt',
           captionPosition: 'bottom',
         });
+
         lightbox.refresh();
 
         const cardHeight =
